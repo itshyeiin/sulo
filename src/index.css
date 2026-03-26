@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Ensure markers don't have default white backgrounds */
+.leaflet-div-icon {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Style the popup to be modern and rounded */
+.leaflet-popup-content-wrapper {
+    border-radius: 12px !important;
+    padding: 4px !important;
+}
+
+.leaflet-popup-tip-container {
+    display: none;
+    /* Cleaner look without the bottom arrow on popups */
+}

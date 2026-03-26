@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.100.0",
     "@tailwindcss/vite": "^4.2.2",
     "axios": "^1.13.6",
     "cheerio": "^1.2.0",

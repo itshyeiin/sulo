@@ -6,7 +6,7 @@ export interface GasStation {
   gasoline_price: number;
   diesel_price: number;
   premium_price: number;
-  lat: number; // Ensure these are present
-  lng: number; 
+  lat: number;
+  lng: number;
   updated_at: string;
 }
